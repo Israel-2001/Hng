@@ -8,7 +8,7 @@ function formatDate(dayOfWeek) {
 
 const currentDay = formatDate(localDate.getUTCDay());
 
-var utcDay = document.getElementById("day").textContent = currentDay
+var utcDay = document.getElementById("currentDay").textContent = currentDay
 
 console.log(currentDay);
 
