@@ -21,7 +21,9 @@ p{
   padding: 0 auto;
 }
 
-
+img {
+    max-width: 200px;
+}
 
 a {
     text-decoration: none;
