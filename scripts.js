@@ -13,7 +13,7 @@ var utcDay = document.getElementById("currentDay").textContent = currentDay
 console.log(currentDay);
 
 // Get the UTC time
-const utcTime = date.toUTCString();
+const utcTime = localDate.toUTCString();
 
 var currentTimeUTC = document.getElementById("currentTimeUTC").textContent = utcTime;
 
