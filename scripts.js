@@ -15,9 +15,9 @@ console.log(currentDay);
 // Get the UTC time in milliseconds by subtracting the timezone offset
 const utcMilliseconds = localDate.getTime() - (localDate.getTimezoneOffset() * 60000);
 
-var currentUTCTime = document.getElementById("currentUTCTime").textContent = utcMilliseconds;
+var currentTimeUTC = document.getElementById("currentTimeUTC").textContent = utcMilliseconds;
 
-console.log(currentUTCTime);
+console.log(currentTimeUTC);
 
 // Output the UTC time in milliseconds
 console.log(utcMilliseconds);
