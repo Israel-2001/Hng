@@ -21,7 +21,7 @@ p{
   padding: 0 auto;
 }
 
-#img {
+div#img{
     max-width="200px";
 }
 img {
